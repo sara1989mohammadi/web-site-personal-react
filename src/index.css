@@ -1,7 +1,6 @@
 @font-face {
   font-family: irs;
   font-style: normal;
-  /* src: url("../public/fonts/IRANSansWeb(FaNum).ttf"); */
   src: local("IRANSansWeb"),
     url(../public/fonts/IRANSansWeb\(FaNum\).ttf) format("truetype");
 }
