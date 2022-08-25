@@ -40,7 +40,7 @@ li {
   list-style: none;
 }
 body {
-  font-family: irs;
+  font-family: "irs";
   font-weight: 400;
   height: 100vh;
   background: var(--primary-background);
@@ -48,7 +48,6 @@ body {
   direction: rtl;
 }
 p {
-  font-weight: 400;
   font-size: 2rem;
   line-height: 26px;
   padding-inline: 29px;
@@ -64,14 +63,12 @@ h5 {
   padding-bottom: 5px;
 }
 h6 {
-  font-weight: 400;
   font-size: 2.2rem;
   line-height: 27px;
   align-items: right;
   text-align: right;
 }
 h1 {
-  font-weight: 400;
   font-size: 4.5rem;
   line-height: 56px;
   color: var(--text-primary);
@@ -92,6 +89,7 @@ h1 {
   width: 191px;
   height: 50px;
   cursor: pointer;
+  font-family: "irs";
 }
 .btn--contact {
   border-radius: 10px;
@@ -148,7 +146,6 @@ h1 {
 }
 .header__title {
   font-size: 2.4rem;
-  font-weight: 400;
 }
 .navbar {
   display: flex;
@@ -245,7 +242,6 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  font-weight: 400;
 }
 .main__info--description__title h2 {
   font-size: 5.2rem;
@@ -291,12 +287,10 @@ h1 {
   align-items: right;
   justify-content: space-between;
   gap: 32px;
-  font-weight: 400;
 }
 
 .main__bio--description p {
   color: var(--text-secondary);
-  font-weight: 400;
   font-size: 1.4rem;
   line-height: 33px;
   text-align: justify;
@@ -324,20 +318,17 @@ h1 {
   align-items: right;
   justify-content: space-between;
   gap: 30px;
-  font-weight: 400;
 }
 .main__cv--description__title {
   gap: 22px;
 }
 
 .main__cv--description__intro h5 {
-  font-weight: 400;
   font-size: 2.4rem;
   line-height: 31px;
   color: var(--card-title);
 }
 .main__cv--description__intro h4 {
-  font-weight: 400;
   font-size: 3.2rem;
   line-height: 40px;
   color: var(--text-primary);
@@ -365,7 +356,6 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 73px;
-  font-weight: 400;
   text-align: center;
 }
 .main__book--description__title h1 {
@@ -373,7 +363,6 @@ h1 {
   text-align: center;
 }
 .main__book--description__title h5 {
-  font-weight: 400;
   font-size: 2rem;
   line-height: 31px;
   color: var(--card-title);
@@ -394,7 +383,6 @@ h1 {
   padding-bottom: 20px;
 }
 .main__book--content__intro h5 {
-  font-weight: 400;
   font-size: 2.6rem;
   align-items: center;
   text-align: center;
@@ -449,7 +437,6 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 77px;
-  font-weight: 400;
   text-align: center;
 }
 .main__slide--description__title h1 {
@@ -457,7 +444,6 @@ h1 {
   text-align: right;
 }
 .main__slide--description__title h5 {
-  font-weight: 400;
   font-size: 2.6rem;
   align-items: right;
   text-align: right;
@@ -563,7 +549,6 @@ h1 {
   align-items: right;
   justify-content: space-between;
   gap: 77px;
-  font-weight: 400;
   text-align: right;
 }
 .main__article--description__title h1 {
@@ -571,7 +556,6 @@ h1 {
   text-align: right;
 }
 .main__article--description__title h5 {
-  font-weight: 400;
   font-size: 2.6rem;
   align-items: right;
   text-align: right;
@@ -635,8 +619,6 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 77px;
-  font-weight: 400;
-
   text-align: center;
 }
 .main__contact--description__title h1 {
@@ -644,7 +626,6 @@ h1 {
   text-align: center;
 }
 .main__contact--description__title h5 {
-  font-weight: 400;
   font-size: 2rem;
   line-height: 31px;
   color: var(--card-title);
@@ -662,7 +643,6 @@ h1 {
   gap: 6px;
 }
 .form--field__item label {
-  font-weight: 400;
   font-size: 2.5rem;
   line-height: 33px;
   color: var(--text-secondary);
