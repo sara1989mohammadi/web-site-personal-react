@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import image from "../../assets/images/04.png";
+import image from "../../assets/images/01.png";
 import icon from "../../assets/icons/sprite.svg#star-svgrepo-com";
 
 const Cv = () => {

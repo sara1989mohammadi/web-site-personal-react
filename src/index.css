@@ -289,22 +289,21 @@ h1 {
 .main__bio--description {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: right;
   justify-content: space-between;
   gap: 32px;
   font-weight: 400;
 }
 
-.main__bio--description__title p {
+.main__bio--description p {
   color: var(--text-secondary);
   font-weight: 400;
   font-size: 14px;
   line-height: 33px;
   text-align: justify;
 }
-.main__bio--description__title button {
-  align-items: center;
-  float: left;
+.main__bio--description button {
+  align-self: flex-end;
 }
 /*********************************** Main-cv ************************************/
 .main__cv {
@@ -348,6 +347,7 @@ h1 {
 .main__cv--img {
   width: 513px;
   height: 502px;
+  border-radius: 10px 100px / 120px;
 }
 /*********************************** Main-book ************************************/
 .main__book {
@@ -512,7 +512,7 @@ h1 {
 
 .swiper-slide__article--content__intro button {
   align-items: center;
-  float: left;
+  align-self: flex-end;
 }
 /*********************************** Main-counter ************************************/
 .main__counter {
@@ -609,7 +609,9 @@ h1 {
   color: var(--card-title);
   padding-bottom: 6px;
 }
-
+.main__article--content__intro button {
+  align-self: flex-end;
+}
 .main__article--img {
   border-radius: 15px;
   width: 100px;
