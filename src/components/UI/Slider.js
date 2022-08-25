@@ -22,7 +22,11 @@ const Slider = () => {
               data-aos="fade-down-left"
               data-aos-duration="2400">
               <div className="swiper-slide__article--title">
-                <img src={article1} className="swiper-slide__article--img" />
+                <img
+                  src={article1}
+                  className="swiper-slide__article--img"
+                  alt=""
+                />
                 <div>
                   <h5>تعهدات و الزامات طرفین در قرارداد</h5>
                   <h6>چاپ شده در فصلنامه شماره 73 علمی پژوهشیِ</h6>
@@ -55,7 +59,11 @@ const Slider = () => {
               data-aos="fade-down-left"
               data-aos-duration="2400">
               <div className="swiper-slide__article--title">
-                <img src={article1} className="swiper-slide__article--img" />
+                <img
+                  src={article1}
+                  className="swiper-slide__article--img"
+                  alt=""
+                />
                 <div>
                   <h5>تعهدات و الزامات طرفین در قرارداد</h5>
                   <h6>چاپ شده در فصلنامه شماره 73 علمی پژوهشیِ</h6>
@@ -88,7 +96,11 @@ const Slider = () => {
               data-aos="fade-down-left"
               data-aos-duration="2400">
               <div className="swiper-slide__article--title">
-                <img src={article1} className="swiper-slide__article--img" />
+                <img
+                  src={article1}
+                  className="swiper-slide__article--img"
+                  alt=""
+                />
                 <div>
                   <h5>تعهدات و الزامات طرفین در قرارداد</h5>
                   <h6>چاپ شده در فصلنامه شماره 73 علمی پژوهشیِ</h6>
@@ -121,7 +133,11 @@ const Slider = () => {
               data-aos="fade-down-left"
               data-aos-duration="2400">
               <div className="swiper-slide__article--title">
-                <img src={article1} className="swiper-slide__article--img" />
+                <img
+                  src={article1}
+                  className="swiper-slide__article--img"
+                  alt=""
+                />
                 <div>
                   <h5>تعهدات و الزامات طرفین در قرارداد</h5>
                   <h6>چاپ شده در فصلنامه شماره 73 علمی پژوهشیِ</h6>
@@ -154,7 +170,11 @@ const Slider = () => {
               data-aos="fade-down-left"
               data-aos-duration="2400">
               <div className="swiper-slide__article--title">
-                <img src={article1} className="swiper-slide__article--img" />
+                <img
+                  src={article1}
+                  className="swiper-slide__article--img"
+                  alt=""
+                />
                 <div>
                   <h5>تعهدات و الزامات طرفین در قرارداد</h5>
                   <h6>چاپ شده در فصلنامه شماره 73 علمی پژوهشیِ</h6>
@@ -187,7 +207,11 @@ const Slider = () => {
               data-aos="fade-down-left"
               data-aos-duration="2400">
               <div className="swiper-slide__article--title">
-                <img src={article1} className="swiper-slide__article--img" />
+                <img
+                  src={article1}
+                  className="swiper-slide__article--img"
+                  alt=""
+                />
                 <div>
                   <h5>تعهدات و الزامات طرفین در قرارداد</h5>
                   <h6>چاپ شده در فصلنامه شماره 73 علمی پژوهشیِ</h6>
@@ -220,7 +244,11 @@ const Slider = () => {
               data-aos="fade-down-left"
               data-aos-duration="2400">
               <div className="swiper-slide__article--title">
-                <img src={article1} className="swiper-slide__article--img" />
+                <img
+                  src={article1}
+                  className="swiper-slide__article--img"
+                  alt=""
+                />
                 <div>
                   <h5>تعهدات و الزامات طرفین در قرارداد</h5>
                   <h6>چاپ شده در فصلنامه شماره 73 علمی پژوهشیِ</h6>
@@ -253,7 +281,11 @@ const Slider = () => {
               data-aos="fade-down-left"
               data-aos-duration="2400">
               <div className="swiper-slide__article--title">
-                <img src={article1} className="swiper-slide__article--img" />
+                <img
+                  src={article1}
+                  className="swiper-slide__article--img"
+                  alt=""
+                />
                 <div>
                   <h5>تعهدات و الزامات طرفین در قرارداد</h5>
                   <h6>چاپ شده در فصلنامه شماره 73 علمی پژوهشیِ</h6>
