@@ -1,6 +1,4 @@
-import React, { Fragment } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
 import Header from "./components/Layout/Header";
 import Info from "./components/PersonalInfo/Info";
 import Bio from "./components/PersonalInfo/Bio";
@@ -11,10 +9,11 @@ import ShortArticle from "./components/PersonalInfo/ShortArticle";
 import Contact from "./components/PersonalInfo/Contact";
 import Slider from "./components/UI/Slider";
 import Counter from "./components/PersonalInfo/Counter";
+import Card from "./components/UI/Card";
 
 function App() {
   return (
-    <Fragment>
+    <Card>
       <Header />
       <main className="main">
         <Info />
@@ -26,7 +25,7 @@ function App() {
         <ShortArticle />
         <Contact />
       </main>
-    </Fragment>
+    </Card>
   );
 }
 
