@@ -5,7 +5,7 @@ const Bio = () => {
     <Fragment>
       <div className="main__bio" data-aos="fade-right" data-aos-duration="2400">
         <div className="container">
-          <img src={image} className="main__bio--img" />
+          <img src={image} className="main__bio--img" alt="" />
           <div className="main__bio--description">
             <div className="main__bio--description__title">
               <h5>زندگی نامه</h5>

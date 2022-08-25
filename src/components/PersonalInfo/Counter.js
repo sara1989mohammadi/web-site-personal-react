@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-
+import icon from "../../assets/icons/sprite.svg";
 const Counter = () => {
   return (
     <Fragment>
@@ -12,7 +12,7 @@ const Counter = () => {
             data-aos-duration="2000">
             <div className="circle">
               <svg className="icon">
-                <use href="images/sprite.svg#book-svgrepo-com"></use>
+                <use href={`${icon}#book-svgrepo-com`}></use>
               </svg>
             </div>
             <h2>کتاب</h2>
@@ -26,7 +26,7 @@ const Counter = () => {
             data-aos-duration="2000">
             <div className="circle">
               <svg className="icon">
-                <use href="images/sprite.svg#book-svgrepo-com"></use>
+                <use href={`${icon}#book-svgrepo-com`}></use>
               </svg>
             </div>
             <h2>مقاله علمی پژوهشی</h2>
@@ -40,7 +40,7 @@ const Counter = () => {
             data-aos-duration="2000">
             <div className="circle">
               <svg className="icon">
-                <use href="images/sprite.svg#book-svgrepo-com"></use>
+                <use href={`${icon}#book-svgrepo-com`}></use>
               </svg>
             </div>
             <h2>مقاله کوتاه</h2>

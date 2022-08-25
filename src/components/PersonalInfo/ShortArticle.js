@@ -21,7 +21,11 @@ const ShortArticle = () => {
             <div className="main__article--content">
               <div className="main__article--content__intro">
                 <div className="main__article--title">
-                  <img src={shortArticle1} className="main__article--img" />
+                  <img
+                    src={shortArticle1}
+                    className="main__article--img"
+                    alt=""
+                  />
                   <div>
                     <h5>تعهدات و الزامات طرفین در قرارداد</h5>
                     <h6>چاپ شده در فصلنامه شماره 73 علمی پژوهشیِ</h6>
@@ -47,7 +51,11 @@ const ShortArticle = () => {
 
               <div className="main__article--content__intro">
                 <div className="main__article--title">
-                  <img src={shortArticle1} className="main__article--img" />
+                  <img
+                    src={shortArticle1}
+                    className="main__article--img"
+                    alt=""
+                  />
                   <div>
                     <h5>ملاکها و ضوابط ارزیابی</h5>
                     <h6>چاپ شده در وي‍ژه نامه مالكيت فكري</h6>
@@ -72,7 +80,11 @@ const ShortArticle = () => {
 
               <div className="main__article--content__intro">
                 <div className="main__article--title">
-                  <img src={shortArticle1} className="main__article--img" />
+                  <img
+                    src={shortArticle1}
+                    className="main__article--img"
+                    alt=""
+                  />
                   <div>
                     <h5>آثار انتقال حقوق و تكاليف قراردادي به ثالث</h5>
                     <h6>چاپ شده در نشريه علمي پ‍ژوهشي و فنآوري</h6>

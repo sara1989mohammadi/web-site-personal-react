@@ -21,7 +21,7 @@ const Book = () => {
                 className="main__book--content__intro"
                 data-aos="fade-down"
                 data-aos-duration="3000">
-                <img src={book3} className="main__book--img" />
+                <img src={book3} className="main__book--img" alt="" />
                 <h5>کتاب حقوق انتقال فناوری</h5>
                 <p>
                   در منظر نهادهای بین‌المللی، بویژه سازمان ملل، یکی از عوامل
@@ -45,7 +45,7 @@ const Book = () => {
                 className="main__book--content__intro"
                 data-aos="fade-up"
                 data-aos-duration="3000">
-                <img src={book1} className="main__book--img" />
+                <img src={book1} className="main__book--img" alt="" />
                 <h5>کتاب قرارداد انتقال تکنولوژی</h5>
                 <p>
                   در منظر نهادهای بین‌المللی، بویژه سازمان ملل، یکی از عوامل
@@ -68,7 +68,7 @@ const Book = () => {
                 className="main__book--content__intro"
                 data-aos="fade-down"
                 data-aos-duration="3000">
-                <img src={book2} className="main__book--img" />
+                <img src={book2} className="main__book--img" alt="" />
                 <h5>کتاب قرارداد انتقال تکنولوژی</h5>
                 <p>
                   در منظر نهادهای بین‌المللی، بویژه سازمان ملل، یکی از عوامل
@@ -92,7 +92,7 @@ const Book = () => {
                 className="main__book--content__intro"
                 data-aos="fade-up"
                 data-aos-duration="3000">
-                <img src={book4} className="main__book--img" />
+                <img src={book4} className="main__book--img" alt="" />
                 <h5>کتاب حقوق ورزشی</h5>
                 <p>
                   در منظر نهادهای بین‌المللی، بویژه سازمان ملل، یکی از عوامل
