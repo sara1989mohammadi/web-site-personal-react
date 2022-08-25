@@ -7,6 +7,7 @@ import Bio from "./components/PersonalInfo/Bio";
 import Cv from "./components/PersonalInfo/Cv";
 import Book from "./components/PersonalInfo/Book";
 import Article from "./components/PersonalInfo/Article";
+import ShortArticle from "./components/PersonalInfo/ShortArticle";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Cv />
         <Book />
         <Article />
+        <ShortArticle />
       </main>
     </Fragment>
   );
