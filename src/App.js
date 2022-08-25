@@ -5,6 +5,8 @@ import Header from "./components/Layout/Header";
 import Info from "./components/PersonalInfo/Info";
 import Bio from "./components/PersonalInfo/Bio";
 import Cv from "./components/PersonalInfo/Cv";
+import Book from "./components/PersonalInfo/Book";
+import Article from "./components/PersonalInfo/Article";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Info />
         <Bio />
         <Cv />
+        <Book />
+        <Article />
       </main>
     </Fragment>
   );
