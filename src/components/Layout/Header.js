@@ -2,9 +2,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header class="header">
+    <header className="header">
       <h1
-        class="header__title"
+        className="header__title"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom">
         دکتر محمد احسنی فروز
