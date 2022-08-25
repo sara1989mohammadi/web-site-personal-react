@@ -35,7 +35,6 @@
   margin-top: 5px;
   border-radius: 2px;
 }
-
 .menu__item a:hover::after {
   width: 100%;
 }
