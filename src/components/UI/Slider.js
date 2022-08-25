@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
-
+import "./Slider.css";
 import article1 from "../../assets/images/11.png";
 
 const Slider = () => {

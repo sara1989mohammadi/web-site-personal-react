@@ -1,5 +1,4 @@
-import React from "react";
-
+import "./Header.css";
 const Header = () => {
   return (
     <header className="header">
@@ -21,49 +20,49 @@ const Header = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="#">صفحه اصلی</a>
+            <a href="/">صفحه اصلی</a>
           </li>
           <li
             className="menu__item"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="#">زندگی نامه</a>
+            <a href="/">زندگی نامه</a>
           </li>
           <li
             className="menu__item"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="#">رزومه</a>
+            <a href="/">رزومه</a>
           </li>
           <li
             className="menu__item"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="#">کتاب ها </a>
+            <a href="/">کتاب ها </a>
           </li>
           <li
             className="menu__item"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="#">مقاله های علمی پژوهشی</a>
+            <a href="/">مقاله های علمی پژوهشی</a>
           </li>
           <li
             className="menu__item"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="#">مقاله های علمی (کوتاه)</a>
+            <a href="/">مقاله های علمی (کوتاه)</a>
           </li>
           <li
             className="menu__item"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="#">تازه های تکنولوژی و تحقیق و توسعه</a>
+            <a href="/">تازه های تکنولوژی و تحقیق و توسعه</a>
           </li>
         </ul>
         <button
