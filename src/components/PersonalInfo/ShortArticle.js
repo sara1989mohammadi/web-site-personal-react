@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import shortArticle1 from "../../assets/images/11.png";
 
 const ShortArticle = () => {
   return (
@@ -20,7 +21,7 @@ const ShortArticle = () => {
             <div className="main__article--content">
               <div className="main__article--content__intro">
                 <div className="main__article--title">
-                  <img src="./images/11.png" className="main__article--img" />
+                  <img src={shortArticle1} className="main__article--img" />
                   <div>
                     <h5>تعهدات و الزامات طرفین در قرارداد</h5>
                     <h6>چاپ شده در فصلنامه شماره 73 علمی پژوهشیِ</h6>
@@ -40,13 +41,13 @@ const ShortArticle = () => {
                                     btn--fill"
                   data-aos="fade-left"
                   data-aos-duration="3000">
-                  ادامه...{" "}
+                  ادامه...
                 </button>
               </div>
 
               <div className="main__article--content__intro">
                 <div className="main__article--title">
-                  <img src="./images/12.png" className="main__article--img" />
+                  <img src={shortArticle1} className="main__article--img" />
                   <div>
                     <h5>ملاکها و ضوابط ارزیابی</h5>
                     <h6>چاپ شده در وي‍ژه نامه مالكيت فكري</h6>
@@ -62,17 +63,16 @@ const ShortArticle = () => {
                 </p>
                 <button
                   type="button"
-                  className="btn btn--info
-                                    btn--fill"
+                  className="btn btn--info btn--fill"
                   data-aos="fade-left"
                   data-aos-duration="3000">
-                  ادامه...{" "}
+                  ادامه...
                 </button>
               </div>
 
               <div className="main__article--content__intro">
                 <div className="main__article--title">
-                  <img src="./images/13.png" className="main__article--img" />
+                  <img src={shortArticle1} className="main__article--img" />
                   <div>
                     <h5>آثار انتقال حقوق و تكاليف قراردادي به ثالث</h5>
                     <h6>چاپ شده در نشريه علمي پ‍ژوهشي و فنآوري</h6>
@@ -88,11 +88,10 @@ const ShortArticle = () => {
                 </p>
                 <button
                   type="button"
-                  className="btn btn--info
-                                    btn--fill"
+                  className="btn btn--info btn--fill"
                   data-aos="fade-left"
                   data-aos-duration="3000">
-                  ادامه...{" "}
+                  ادامه...
                 </button>
               </div>
             </div>

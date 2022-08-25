@@ -9,6 +9,8 @@ import Book from "./components/PersonalInfo/Book";
 import Article from "./components/PersonalInfo/Article";
 import ShortArticle from "./components/PersonalInfo/ShortArticle";
 import Contact from "./components/PersonalInfo/Contact";
+import Slider from "./components/UI/Slider";
+import Counter from "./components/PersonalInfo/Counter";
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Cv />
         <Book />
         <Article />
+        <Counter />
         <ShortArticle />
         <Contact />
       </main>
