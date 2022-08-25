@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import book1 from "../../assets/images/book1.png";
 import book2 from "../../assets/images/book2.png";
 import book3 from "../../assets/images/book3.png";
-import book4 from "../../assets/images/Image.png";
+import book4 from "../../assets/images/book4.png";
 const Book = () => {
   return (
     <Fragment>
@@ -107,7 +107,7 @@ const Book = () => {
                       btn--fill"
                   data-aos="fade-left"
                   data-aos-duration="3000">
-                  اطلاعات بیشتر{" "}
+                  اطلاعات بیشتر
                 </button>
               </div>
             </div>
