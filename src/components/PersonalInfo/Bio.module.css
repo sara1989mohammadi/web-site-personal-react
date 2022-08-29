@@ -1,0 +1,34 @@
+/*********************************** Main-bio ************************************/
+.main__bio {
+    padding-block: 30px;
+    max-height: auto;
+  }
+  
+  .main__bio .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+  }
+  .main__bio--img {
+    width: 480px;
+    height: 576px;
+    border-radius: 100px / 120px 10px;
+  }
+  .main__bio--description {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  
+  .main__bio--description p {
+    color: var(--text-secondary);
+    font-size: 1.4rem;
+    line-height: 33px;
+    text-align: justify;
+  }
+  .main__bio--description button {
+    align-self: flex-end;
+  }

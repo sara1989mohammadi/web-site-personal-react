@@ -1,7 +1,20 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
+
 import image from "../../assets/images/Image.png";
 import icon from "../../assets/icons/sprite.svg";
 const Info = () => {
+  useEffect(() => {
+    fetchInfoHandler();
+  }, []);
+  const fetchInfoHandler = () => {
+    fetch("https://localhost:44322/Activity")
+      .then((response) => {
+        return response.json;
+      })
+      .then((data) => {
+        console.log(data);
+      });
+  };
   return (
     <Fragment>
       <div className="main__info" data-aos="fade-in">

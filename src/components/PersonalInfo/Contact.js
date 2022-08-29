@@ -14,7 +14,7 @@ const Contact = () => {
               <form className="form--field">
                 {/* username */}
                 <div className="form--field__item">
-                  <label for="username">نام و نام خانوادگی</label>
+                  <label htmlFor="username">نام و نام خانوادگی</label>
                   <input
                     id="username"
                     type="text"
@@ -23,12 +23,12 @@ const Contact = () => {
                 </div>
                 {/* email  */}
                 <div className="form--field__item">
-                  <label for="email">ایمیل</label>
+                  <label htmlFor="email">ایمیل</label>
                   <input id="email" type="email" placeholder="ایمیل" />
                 </div>
                 {/* description */}
                 <div className="form--field__item">
-                  <label for="description">توضیحات</label>
+                  <label htmlFor="description">توضیحات</label>
                   <textarea
                     id="description"
                     rows="20"

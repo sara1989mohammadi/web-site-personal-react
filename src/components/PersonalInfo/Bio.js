@@ -1,13 +1,14 @@
 import React, { Fragment } from "react";
+import classes from './Bio.module.css'
 import image from "../../assets/images/04.png";
 const Bio = () => {
   return (
     <Fragment>
-      <div className="main__bio" data-aos="fade-right" data-aos-duration="2400">
+      <div className={classes["main__bio"]} data-aos="fade-right" data-aos-duration="2400">
         <div className="container">
-          <img src={image} className="main__bio--img" alt="" />
-          <div className="main__bio--description">
-            <div className="main__bio--description__title">
+          <img src={image} className={classes["main__bio--img"]} alt="" />
+          <div className={classes["main__bio--description"]}>
+            <div className={classes["main__bio--description__title"]}>
               <h5>زندگی نامه</h5>
               <h1>محمد احسني فروز</h1>
             </div>
@@ -33,7 +34,7 @@ const Bio = () => {
                                 btn--fill"
               data-aos="fade-left"
               data-aos-duration="3000">
-              ادامه زندگی نامه{" "}
+              ادامه زندگی نامه
             </button>
           </div>
         </div>

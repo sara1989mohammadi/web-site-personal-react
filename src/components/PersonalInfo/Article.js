@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import article1 from "../../assets/images/11.png";
 import Slider from "../UI/Slider";
 
 const Article = () => {
