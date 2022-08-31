@@ -5,12 +5,15 @@
 }
 
 .books__item {
+
     display: flex;
     justify-content: space-between;
     gap: 10px
 }
 
 .books__item--detail {
+    margin: 25px;
+    padding: 25px;
     border: 1px solid var(--card-title);
-
+    border-radius: 20px;
 }
