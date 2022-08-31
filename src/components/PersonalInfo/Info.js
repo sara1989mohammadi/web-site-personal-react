@@ -2,24 +2,25 @@ import React, { Fragment, useEffect, useState } from "react";
 import image from "../../assets/images/Image.png";
 import InfoList from "./InfoList";
 const Info = () => {
-  const [info, setInfo] = useState();
+  const [info, setInfo] = useState([]);
   useEffect(() => {
     fetchInfoHandler();
   }, []);
   const fetchInfoHandler = () => {
     fetch("https://localhost:44322/Activity")
       .then((response) => {
-        return response.json;
+
+        return response.json();
       })
       .then((data) => {
         console.log(data);
-        // const items = data.map(item => {
-        //   return {
-        //     id: item.id,
-        //     title: item.title
-        //   }
-        // })
-        //setInfo(data);
+        const items = data.map(item => {
+          return {
+            id: item.id,
+            title: item.title
+          };
+        })
+        setInfo(items);
       });
   };
   return (

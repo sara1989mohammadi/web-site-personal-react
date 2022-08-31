@@ -3,6 +3,30 @@ import image from "../../assets/images/01.png";
 import icon from "../../assets/icons/sprite.svg#star-svgrepo-com";
 
 const Cv = () => {
+  // const [cv, setCv] = useState([]);
+  // useEffect(() => {
+  //   fetchCvHandler();
+  // }, []);
+  // const fetchCvHandler = () => {
+  //   fetch("https://localhost:44322/Cv")
+  //     .then((response) => {
+
+  //       return response.json();
+  //     })
+  //     .then((data) => {
+  //       console.log(data);
+  //       const items = data.map(item => {
+  //         return {
+  //           id: item.id,
+  //           title: item.title,
+  //           university: item.university,
+  //           grade: item.grade,
+
+  //         };
+  //       })
+  //       setCv(items);
+  //     });
+  // };
   return (
     <Fragment>
       <div className="main__cv">

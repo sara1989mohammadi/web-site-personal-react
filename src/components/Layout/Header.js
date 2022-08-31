@@ -1,68 +1,72 @@
-import "./Header.css";
+import { NavLink, Link } from 'react-router-dom';
+import classes from "./Header.module.css";
 const Header = () => {
   return (
-    <header className="header">
+    <header className={classes.header}>
       <h1
-        className="header__title"
+        className={classes["header__title"]}
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom">
         دکتر محمد احسنی فروز
       </h1>
-      <button type="button" className="toggle-btn">
+      <button type="button" className={classes["toggle-btn"]}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
       </button>
-      <nav className="navbar">
-        <ul className="menu">
+      <nav className={classes["navbar"]}>
+        <ul className={classes["menu"]}>
           <li
-            className="menu__item"
+            className={classes["menu__item"]}
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="/">صفحه اصلی</a>
+            <Link to="/">صفحه اصلی</Link>
           </li>
           <li
-            className="menu__item"
+            className={classes["menu__item"]}
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="/">زندگی نامه</a>
+            <Link to='/biography'>
+              زندگی نامه
+            </Link>
+
           </li>
           <li
-            className="menu__item"
+            className={classes["menu__item"]}
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="/">رزومه</a>
+            <NavLink to="/resume">رزومه</NavLink>
           </li>
           <li
-            className="menu__item"
+            className={classes["menu__item"]}
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="/">کتاب ها </a>
+            <NavLink to="/">کتاب ها </NavLink>
           </li>
           <li
-            className="menu__item"
+            className={classes["menu__item"]}
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="/">مقاله های علمی پژوهشی</a>
+            <NavLink to="/article">مقاله های علمی پژوهشی</NavLink>
           </li>
           <li
-            className="menu__item"
+            className={classes["menu__item"]}
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="/">مقاله های علمی (کوتاه)</a>
+            <NavLink to="/">مقاله های علمی (کوتاه)</NavLink>
           </li>
           <li
-            className="menu__item"
+            className={classes["menu__item"]}
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <a href="/">تازه های تکنولوژی و تحقیق و توسعه</a>
+            <NavLink to="/">تازه های تکنولوژی و تحقیق و توسعه</NavLink>
           </li>
         </ul>
         <button
