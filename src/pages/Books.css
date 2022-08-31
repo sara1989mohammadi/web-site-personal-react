@@ -1,0 +1,16 @@
+.books {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.books__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+}
+
+.books__item--detail {
+    border: 1px solid var(--card-title);
+
+}

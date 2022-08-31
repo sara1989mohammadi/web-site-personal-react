@@ -45,7 +45,7 @@ const Header = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-            <NavLink to="/">کتاب ها </NavLink>
+            <NavLink to="/books">کتاب ها </NavLink>
           </li>
           <li
             className={classes["menu__item"]}
