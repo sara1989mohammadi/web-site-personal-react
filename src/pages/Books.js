@@ -1,4 +1,8 @@
 import React, { Fragment } from 'react'
+import book1 from "../assets/images/book1.png";
+import book2 from "../assets/images/book2.png";
+import book3 from "../assets/images/book3.png";
+import book4 from "../assets/images/book4.png";
 import './Books.css'
 const Books = () => {
     return (
@@ -6,11 +10,11 @@ const Books = () => {
             <div className='books'>
                 <div className='books__item'>
                     <div className='books__item--detail'>
+                        <img src={book1} className="books__item--img" alt="" />
                         <h5>
                             قرارداد انتقال تکنولوژی
                         </h5>
                         <p>
-
                             در فصل نخست این كتاب، به تعريف واژه هايي كه در حوزه انتقال فناوري، كاربرد فراوان
                             دارند مانند دانش چگونگي، دانش فني، اختراع، اسرار تجاري، تكنولوژي و فنآوري
                             پرداخته شده است. رابطه فناوری با دانش چگونگی، رابطه فناوری با اختراع ثبت شده،
@@ -30,9 +34,10 @@ const Books = () => {
 
                         </p>
                     </div>
-                    <div className='books__item--detail'>        <h5>
-                        قرارداد انتقال تکنولوژی
-                    </h5>
+                    <div className='books__item--detail'>
+                        <img src={book2} className="books__item--img" alt="" />    <h5>
+                            قرارداد انتقال تکنولوژی
+                        </h5>
                         <p>
 
                             در فصل نخست این كتاب، به تعريف واژه هايي كه در حوزه انتقال فناوري، كاربرد فراوان
@@ -55,9 +60,10 @@ const Books = () => {
                         </p></div>
                 </div>
                 <div className='books__item'>
-                    <div className='books__item--detail'>        <h5>
-                        قرارداد انتقال تکنولوژی
-                    </h5>
+                    <div className='books__item--detail'>
+                        <img src={book3} className="books__item--img" alt="" />    <h5>
+                            قرارداد انتقال تکنولوژی
+                        </h5>
                         <p>
 
                             در فصل نخست این كتاب، به تعريف واژه هايي كه در حوزه انتقال فناوري، كاربرد فراوان
@@ -78,9 +84,10 @@ const Books = () => {
                             فارسی، مبتنی بر مطالب کتاب، پیوست این کتاب میباشد.
 
                         </p></div>
-                    <div className='books__item--detail'>        <h5>
-                        قرارداد انتقال تکنولوژی
-                    </h5>
+                    <div className='books__item--detail'>
+                        <img src={book4} className="books__item--img" alt="" />      <h5>
+                            قرارداد انتقال تکنولوژی
+                        </h5>
                         <p>
 
                             در فصل نخست این كتاب، به تعريف واژه هايي كه در حوزه انتقال فناوري، كاربرد فراوان

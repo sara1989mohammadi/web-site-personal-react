@@ -17,3 +17,20 @@
     border: 1px solid var(--card-title);
     border-radius: 20px;
 }
+
+.books__item--detail h5 {
+    padding-top: 25px;
+}
+
+.books__item--detail p {
+    line-height: 35px;
+}
+
+.books__item--img {
+    /* margin-top: 22px; */
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    float: right;
+    padding: 20px;
+}
