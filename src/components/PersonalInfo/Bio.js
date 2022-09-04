@@ -29,10 +29,10 @@ const Bio = () => {
               <h1>محمد احسني فروز</h1>
             </div>
             {bio.map(item => {
-              return <p
-                data-aos="fade-up-left" data-aos-duration="2400"
-                key={item.id}>
-                {item.shortDescription}</p>
+              return <div key={item.id}>
+                <p data-aos="fade-up-left" data-aos-duration="2400">
+                  {item.shortDescription}</p>
+              </div>
             })}
             <button
               type="button"

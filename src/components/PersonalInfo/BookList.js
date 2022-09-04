@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import book3 from "../../assets/images/book3.png";
 const BookList = (props) => {
-    console.log(props.book);
     return (
         <Fragment>
             {props.book.map(item => {

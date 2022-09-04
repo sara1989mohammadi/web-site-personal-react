@@ -1,8 +1,10 @@
 import React, { Fragment, useState, useEffect } from "react";
 import BookList from "./BookList";
 const Book = () => {
+
   const [book, setBook] = useState([]);
   useEffect(() => { fetchBookHandler() }, ([]));
+
   const fetchBookHandler = () => {
     fetch("https://localhost:44322/Book").then((Response) => {
       return Response.json();
@@ -18,6 +20,7 @@ const Book = () => {
       setBook(items);
     });
   }
+
   return (
     <Fragment>
       <div className="main__book">

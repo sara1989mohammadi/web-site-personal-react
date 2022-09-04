@@ -14,7 +14,7 @@ const Cv = () => {
   //       return response.json();
   //     })
   //     .then((data) => {
-  //       console.log(data);
+
   //       const items = data.map(item => {
   //         return {
   //           id: item.id,
