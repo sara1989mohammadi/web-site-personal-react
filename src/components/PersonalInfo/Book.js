@@ -1,9 +1,23 @@
-import React, { Fragment } from "react";
-import book1 from "../../assets/images/book1.png";
-import book2 from "../../assets/images/book2.png";
-import book3 from "../../assets/images/book3.png";
-import book4 from "../../assets/images/book4.png";
+import React, { Fragment, useState, useEffect } from "react";
+import BookList from "./BookList";
 const Book = () => {
+  const [book, setBook] = useState([]);
+  useEffect(() => { fetchBookHandler() }, ([]));
+  const fetchBookHandler = () => {
+    fetch("https://localhost:44322/Book").then((Response) => {
+      return Response.json();
+    }).then((data) => {
+      const items = data.map(item => {
+        return {
+          id: item.id,
+          name: item.name,
+          shortDescription: item.shortDescription,
+          description: item.description,
+        };
+      })
+      setBook(items);
+    });
+  }
   return (
     <Fragment>
       <div className="main__book">
@@ -16,8 +30,9 @@ const Book = () => {
               <h1>کتاب های چاپ شده</h1>
             </div>
             <div className="main__book--content">
+              <BookList book={book} />
               {/* book3 */}
-              <div
+              {/* <div
                 className="main__book--content__intro"
                 data-aos="fade-down"
                 data-aos-duration="3000">
@@ -38,10 +53,10 @@ const Book = () => {
                   data-aos-duration="3000">
                   اطلاعات بیشتر
                 </button>
-              </div>
+              </div> */}
               {/* book1 */}
 
-              <div
+              {/* <div
                 className="main__book--content__intro"
                 data-aos="fade-up"
                 data-aos-duration="3000">
@@ -62,9 +77,9 @@ const Book = () => {
                   data-aos-duration="3000">
                   اطلاعات بیشتر{" "}
                 </button>
-              </div>
+              </div> */}
               {/* book2 */}
-              <div
+              {/* <div
                 className="main__book--content__intro"
                 data-aos="fade-down"
                 data-aos-duration="3000">
@@ -85,10 +100,10 @@ const Book = () => {
                   data-aos-duration="3000">
                   اطلاعات بیشتر
                 </button>
-              </div>
+              </div> */}
               {/* book4 */}
 
-              <div
+              {/* <div
                 className="main__book--content__intro"
                 data-aos="fade-up"
                 data-aos-duration="3000">
@@ -109,7 +124,7 @@ const Book = () => {
                   data-aos-duration="3000">
                   اطلاعات بیشتر
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
